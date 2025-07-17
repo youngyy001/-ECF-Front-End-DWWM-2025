@@ -18,12 +18,10 @@ body {
   background-attachment: fixed;
 }
 
-/* UTILITAIRES */
 .flex {
   display: flex;
 }
 
-/* HEADER */
 header {
   margin-top: 10px;
   height: 15vh;
@@ -46,7 +44,7 @@ h1 {
     0 0 15px white;
 }
 
-/* MAIN */
+
 main {
   flex: 1;
   width: 100%;
@@ -55,7 +53,7 @@ main {
   gap: 40px;
 }
 
-/* SECTION 1 */
+
 .firstSection {
   margin-top: 20px;
   flex-direction: column;
@@ -78,7 +76,7 @@ main {
   width: 80%;
 }
 
-/* SECTION 2 */
+
 .secondSection {
   width: 100%;
   justify-content: center;
@@ -92,7 +90,7 @@ article {
   align-items: center;
 }
 
-/* FIGURE - IMAGE + TEXTE CÔTE À CÔTE */
+
 figure {
     width: 100%;
     max-width: 1000px;
@@ -142,9 +140,8 @@ figcaption {
     justify-content: center;
 }
 
-/* LIEN HOROSCOPE */
 .lienHoroscope {
-  background-color: red;
+  background-color: #191970bf;
   border-radius: 5px;
   text-decoration: none;
   padding: 5px 10px;
@@ -161,7 +158,8 @@ footer {
   font-size: 20px;
   margin-top: 30px;
   justify-content: center;
-  background-color: rgb(22, 22, 22);
+   background-color: rgba(0, 0, 0, 0.7);
+
   padding: 20px 0;
 }
 footer ul {
@@ -244,7 +242,7 @@ footer div span {
 /* TABLETTES & PC */
 @media (min-width: 760px) and (max-width: 1280px) {
   header {
-    font-size: 50px;
+    font-size: 30px;
   }
   .firstSection {
     font-size: 25px;
@@ -279,7 +277,7 @@ footer div span {
     figcaption {
         height: auto;
         padding: 5px;
-        margin-left: -2px; /* on garde le "livre ouvert" même sur petit écran */
+        margin-left: -2px;
     }
 }
 
