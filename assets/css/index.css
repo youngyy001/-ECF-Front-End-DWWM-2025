@@ -98,7 +98,6 @@ figure {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 0; /* pas d'espace entre les deux blocs */
     perspective: 1400px;
     animation: rebond 3s linear infinite alternate;
     position: relative;

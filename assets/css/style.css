@@ -87,20 +87,6 @@ footer div span {
   color: red;
 }
 
-/* @media (min-width: 340px) and (max-width: 540px) {
-    main, header{
-        font-size: 20px;
-        line-height: 25px;
-        gap: 5px;
-
-    }
-    h1{
-        font-size: 25px;
-    }
-    footer {
-    font-size: 14px;
-    }
-} */
 
 /* Smartphones portrait : max-width 500px */
 @media screen and (max-width: 500px) {

@@ -14,8 +14,7 @@ html, body {
     display: flex;
 }
 body {
-  /* background: linear-gradient(to right, #6a11cb, #2575fc); */
-  color: #fff;
+   color: #fff;
   flex-direction: column;
  min-height: 100vh;
   min-height: 100vh;
@@ -102,14 +101,6 @@ button:hover {
   margin-bottom: 10px;
 }
 
-
-/* .cards-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-  margin-top: 20px;
-} */
-
 .card {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 12px;
@@ -124,7 +115,7 @@ button:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* Message unique */
+
 #horoscopeResult h2 {
   margin-top: 20px;
   color: #ffe;
@@ -140,7 +131,7 @@ button:hover {
   margin-top: 10px;
 }
 
-/* Message d'erreur */
+
 .error-message {
   color: #ffcccb;
   font-weight: bold;
@@ -149,10 +140,6 @@ button:hover {
 
 /* Responsive */
 @media (max-width: 600px) {
-  /* input[type="text"] {
-    width: 100%;
-  } */
-
   .container {
     padding: 20px;
   }
@@ -197,7 +184,6 @@ main{
   color: red;
 }
 
-/* --- MEDIA QUERIES --- */
 
 /* SMARTPHONES PORTRAIT */
 @media (max-width: 500px) {
