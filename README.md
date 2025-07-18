@@ -27,7 +27,7 @@ https://ecf1-badji-dieme-cherif.sidathsoeun.fr
 
 # lien vers le déopt Github
 
-
+https://github.com/youngyy001/-ECF-Front-End-DWWM-2025.git
 
 # Arborescence du projet
 
@@ -44,10 +44,11 @@ https://ecf1-badji-dieme-cherif.sidathsoeun.fr
 |        |---index.css            # CSS de ma page index
 |        |---style.css            # CSS des différentes page du site (aPropos, CGU, RGPD et mentionsLegales) 
 |    |---images/
-|         |---image1
-|         |---image2
-|         |---favicon             # favicon du site web
-|         |---logo.jpg            # logo du site  
+|         |---fond_background.jpg              # l'image qui va dans background de mes différentes pages
+|         |---meteorites.jpg                   # l'image qui va que dans le background de ma page horoscope
+|         |---horoscope_carte2.jpg             # l'image de ma carte horscope se trouvant dans ma page index
+|         |---favicon                          # favicon du site web
+|         |---logo.jpg                         # logo du site  
 |   
 |    |---js/
 |         |---script.js           # script de ma page horoscope
@@ -56,14 +57,15 @@ https://ecf1-badji-dieme-cherif.sidathsoeun.fr
 
 #  Navigation intuitive
 - Liens vers :
-  - Mentions légales ()
-  - CGU ()
-  - RGPD ()
-  - À propos ()
+  - horoscope (https://ecf1-badji-dieme-cherif.sidathsoeun.fr/assets/html/horoscope.html)
+  - Mentions légales (https://ecf1-badji-dieme-cherif.sidathsoeun.fr/assets/html/mentionsLegales.html)
+  - CGU (https://ecf1-badji-dieme-cherif.sidathsoeun.fr/assets/html/CGU.html)
+  - RGPD (https://ecf1-badji-dieme-cherif.sidathsoeun.fr/assets/html/RGPD.html)
+  - À propos (https://ecf1-badji-dieme-cherif.sidathsoeun.fr/assets/html/aPropos.html)
 
 # utilisation locale
 ```bash
-git clone (mettre lien de mon site ici)
+git clone (https://ecf1-badji-dieme-cherif.sidathsoeun.fr)
 Ouvrir index.html dans votre navigateur
 ```
 # Organisation
